@@ -1,16 +1,18 @@
 # List your project dependencies here
-ollama
-pdfplumber
-langchain
-langchain-core
-langchain-ollama
-langchain-community
-langchain_text_splitters
-unstructured
-sentence-transformers
-elevenlabs
-fastembed
-streamlit
-langchain-postgres
-psycopg2-binary # for postgres
+ollama # for ollama models 
+pdfplumber # for pdf extraction from pdf
+langchain # for langchain models and text splitting
+langchain-core # for core models and text splitting
+langchain-ollama # for ollama models 
+langchain-community # for community models
+langchain_text_splitters # for text splitting
+unstructured # for unstructured data
+sentence-transformers # for sentence embeddings
+elevenlabs # for elevenlabs models 
+fastembed # for fastembed embeddings
+streamlit # for streamlit ui interaction
+langchain-postgres # for postgres database
+qdrant-client # for qdrant database
+langchain_qdrant
+psycopg2-binary # for postgres database
 unstructured[all-docs] # most difficult to install
