@@ -1,4 +1,5 @@
 import os
+import streamlit as st
 from dotenv import load_dotenv
 from langchain_community.document_loaders import UnstructuredPDFLoader, OnlinePDFLoader
 from langchain_ollama import OllamaEmbeddings, ChatOllama
@@ -9,7 +10,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-def get_data_from_db():
+
+def get_data_from_db(user_input):
 
     connection_string = "postgresql+psycopg2://" + os.getenv("POSTGRES_DB_USER") + ":" + os.getenv("POSTGRES_DB_PASSWORD") + "@" + os.getenv(
         "POSTGRES_DB_HOST") + ":" + os.getenv("POSTGRES_DB_PORT") + "/" + os.getenv("POSTGRES_DB_NAME")
@@ -69,15 +71,30 @@ def get_data_from_db():
         | StrOutputParser()
     )
 
-    res = chain.invoke(input=("What is the document about?"))
-    print(f"\n Q1. What is the document about? \n Answer: {res}\n")
-    res = chain.invoke(input=("What are the key points of the document that student should know very well?"))
-    print(f"\n Q2. What are the key points of the document that student should know very well? \n Answer: {res}\n")
+    res = chain.invoke(input=user_input)
+    return res
+
+# ##################################################################################
+# To run application use following command:
+#   => streamlit run .\src\query\ai_query.py
+# ##################################################################################
 
 
 def main():
     load_dotenv()
-    get_data_from_db()
+    st.title("Biology AI Chatbot")
+
+    # Get user input question
+    user_input = st.text_area("Ask me anything about biology:", "")
+
+    if st.button("Ask me"):
+        if user_input:
+            with st.spinner("Processing..."):
+                response = get_data_from_db(user_input)
+                st.markdown("### Response:")
+                st.write(response)
+        else:
+            st.warning("Please enter a question.")
 
 
 if __name__ == "__main__":

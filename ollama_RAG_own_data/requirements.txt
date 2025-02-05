@@ -10,6 +10,7 @@ unstructured
 sentence-transformers
 elevenlabs
 fastembed
+streamlit
 langchain-postgres
 psycopg2-binary # for postgres
 unstructured[all-docs] # most difficult to install
