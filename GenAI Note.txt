@@ -1,0 +1,102 @@
+
+Azure OPen AI [HCL]:
+====================
+AZURE_OPENAI_ENDPOINT=https://ionatrial.openai.azure.com/
+AZURE_OPENAI_API_KEY=
+OPENAI_API_VERSION=2024-02-15-preview
+AZURE_DEPLOYMENT_NAME=ionagpt35turbo
+AZURE_MODEL_NAME=gpt-35-turbo
+OPENAI_API_TYPE=azure
+
+
+Huggingface:
+=============
+Name: ABAN-HF-TOKEN
+Token: 
+Permissions: FINEGRAINED
+
+
+https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
+https://huggingface.co/blog/smolagents
+
+
+unsloth/Llama-3.1-Nemotron-70B-Instruct-bnb-4bit:
+---------------------------------------------------
+https://huggingface.co/unsloth/Llama-3.1-Nemotron-70B-Instruct-bnb-4bit
+	https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF
+	https://colab.research.google.com/drive/1Ys44kVvmeZtnICzWz0xgpRnrIOjZAuxp?usp=sharing#scrollTo=IqM-T1RTzY6C
+	https://github.com/unslothai/unsloth?tab=readme-ov-file#-installation-instructions
+	
+
+https://www.youtube.com/results?search_query=how+to+install+huggingface_hub+and+use+it
+https://www.youtube.com/watch?v=pO2-yw5d_ik
+
+
+
+
+
+create extension if not exists vector;
+
+drop table if exists document_chunk;
+
+create table document_chunk(
+	id serial primary key,
+	content text,
+	embedding vector(1536)
+);
+
+
+truncate table document_chunk;
+
+
+LangChain:
+==========
+
+LANGSMITH_API_KEY=
+
+https://python.langchain.com/v0.1/docs/get_started/quickstart/
+
+https://www.youtube.com/watch?v=UtSSMs6ObqY
+https://www.youtube.com/watch?v=GWB9ApTPTv4&t=1578s
+https://www.youtube.com/@vincibits/videos
+
+https://github.com/pdichone
+
+https://ollama.com/search
+https://ollama.com/rjmalagon/gte-qwen2-1.5b-instruct-embed-f16
+
+https://www.youtube.com/watch?v=ni5ofrnzH3I&list=PLBSCvBlTOLa_WxDWdDoHSP3u2CdGImtwM
+https://www.youtube.com/watch?v=pO2-yw5d_ik
+
+
+Haystack:
+=========
+https://docs.haystack.deepset.ai/docs/ollamadocumentembedder
+
+
+
+Sourcegraph
+------------
+Cody: AI Coding Assistant with Autocomplete & Chat
+API_KEY : 
+
+
+C:\Users\aban.m>ollama list
+NAME                                                  ID              SIZE      MODIFIED
+rjmalagon/gte-qwen2-1.5b-instruct-embed-f16:latest    90ba362f8207    3.6 GB    2 days ago
+nomic-embed-text:latest                               0a109f422b47    274 MB    3 days ago
+phi:latest                                            e2fd6321a5fe    1.6 GB    6 days ago
+qwen2.5-coder:latest                                  2b0496514337    4.7 GB    6 days ago
+llama3.2:latest                                       a80c4f17acd5    2.0 GB    7 days ago
+codellama:latest                                      8fdf8f752f6e    3.8 GB    8 days ago
+mistral:latest                                        f974a74358d6    4.1 GB    8 days ago
+llama2:latest                                         78e26419b446    3.8 GB    8 days ago
+
+huggingFace model install [it is applicable ONLY for GGUF type model]:
+ollama pull hf.co/bartowski/DeepSeek-R1-Distill-Qwen-7B-GGUF:latest
+
+-> Building a fully local research assistant from scratch with Ollama :  https://www.youtube.com/watch?v=XGuTzHoqlj8
+-> Reliable, fully local RAG agents with LLaMA3.2-3b: https://www.youtube.com/watch?v=bq1Plo2RhYI [https://www.youtube.com/@AIJasonZ]
+-> LangChain Academy: https://academy.langchain.com/collections
+
+ollama-deep-researcher : https://github.com/langchain-ai/ollama-deep-researcher/tree/main

@@ -1,0 +1,200 @@
+Baby Spinach
+Romaine Lettuce
+Arugula
+Carrots
+Broccoli
+Cauliflower
+Red Bell Peppers
+Green Bell Peppers
+Yellow Onions
+Red Onions
+Garlic
+Ginger Root
+Sweet Potatoes
+Russet Potatoes
+Red Potatoes
+Mushrooms
+Cherry Tomatoes
+Roma Tomatoes
+Cucumbers
+Zucchini
+Yellow Squash
+Asparagus
+Green Beans
+Brussels Sprouts
+Celery
+Corn
+Avocados
+Bananas
+Apples (Red Delicious)
+Apples (Granny Smith)
+Oranges
+Lemons
+Limes
+Strawberries
+Blueberries
+Raspberries
+Blackberries
+Grapes (Green)
+Grapes (Red)
+Pears
+Peaches
+Plums
+Mangoes
+Pineapples
+Kiwis
+Whole Milk
+2% Milk
+Skim Milk
+Almond Milk
+Soy Milk
+Heavy Cream
+Half & Half
+Butter (Unsalted)
+Butter (Salted)
+Greek Yogurt (Plain)
+Greek Yogurt (Vanilla)
+Regular Yogurt
+Cottage Cheese
+Cream Cheese
+Sharp Cheddar Cheese
+Mild Cheddar Cheese
+Mozzarella Cheese
+Swiss Cheese
+Parmesan Cheese
+Feta Cheese
+Gouda Cheese
+Brie Cheese
+Ricotta Cheese
+String Cheese
+Sour Cream
+Ground Beef (80/20)
+Ground Beef (90/10)
+Ribeye Steak
+Sirloin Steak
+New York Strip Steak
+Chicken Breasts
+Chicken Thighs
+Chicken Wings
+Whole Chicken
+Ground Turkey
+Turkey Breast
+Pork Chops
+Pork Tenderloin
+Bacon
+Ham
+Salmon Fillets
+Tuna Steaks
+Tilapia Fillets
+Shrimp
+Cod Fillets
+Ground Pork
+Italian Sausage
+Lamb Chops
+Ground Lamb
+Duck Breast
+White Bread
+Wheat Bread
+Sourdough Bread
+Rye Bread
+French Baguette
+Croissants
+Bagels (Plain)
+Bagels (Everything)
+English Muffins
+Hamburger Buns
+Hot Dog Buns
+Dinner Rolls
+Pita Bread
+Tortillas (Flour)
+Tortillas (Corn)
+Muffins (Blueberry)
+Muffins (Chocolate Chip)
+Danish Pastries
+Donuts
+Sandwich Rolls
+Coffee Beans
+Ground Coffee
+Black Tea
+Green Tea
+Herbal Tea
+Orange Juice
+Apple Juice
+Cranberry Juice
+Grape Juice
+Lemonade
+Cola
+Diet Cola
+Lemon-Lime Soda
+Ginger Ale
+Root Beer
+Sparkling Water
+Spring Water
+Coconut Water
+Energy Drinks
+Sports Drinks
+White Rice
+Brown Rice
+Quinoa
+Pasta (Spaghetti)
+Pasta (Penne)
+Pasta (Fettuccine)
+Black Beans
+Kidney Beans
+Chickpeas
+Lentils
+Tomato Sauce
+Diced Tomatoes
+Chicken Broth
+Beef Broth
+Vegetable Broth
+Olive Oil
+Vegetable Oil
+Canola Oil
+Apple Cider Vinegar
+Balsamic Vinegar
+Soy Sauce
+Hot Sauce
+Ketchup
+Mustard
+Mayonnaise
+Potato Chips
+Tortilla Chips
+Pretzels
+Popcorn
+Mixed Nuts
+Almonds
+Cashews
+Peanuts
+Trail Mix
+Granola Bars
+Chocolate Bars
+Cookies (Chocolate Chip)
+Cookies (Oatmeal)
+Candy Bars
+Gummy Bears
+Ice Cream (Vanilla)
+Ice Cream (Chocolate)
+Frozen Pizza
+Frozen Vegetables (Mixed)
+Frozen Corn
+Frozen Peas
+Frozen Berries
+Frozen Waffles
+Frozen Fish Fillets
+Frozen Chicken Nuggets
+TV Dinners
+Frozen Burritos
+Ice Pops
+Frozen French Fries
+Frozen Breakfast Sandwiches
+Turkey Breast (Sliced)
+Ham (Sliced)
+Roast Beef (Sliced)
+Salami
+Pepperoni
+Potato Salad
+Coleslaw
+Macaroni Salad
+Chicken Salad
+Egg Salad

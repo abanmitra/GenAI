@@ -1,0 +1,13 @@
+# List your project dependencies here
+ollama
+pdfplumber
+langchain
+langchain-core
+langchain-ollama
+langchain-community
+langchain_text_splitters
+unstructured
+sentence-transformers
+elevenlabs
+fastembed
+unstructured[all-docs] # most difficult to install

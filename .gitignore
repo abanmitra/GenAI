@@ -1,0 +1,8 @@
+/protobuf
+/embeding_vector_data/src/__pycache__
+/embeding_vector_data/src/haystack/__pycache__
+/ollama_experiment/src/__pycache__
+/ollama_RAG_own_data/src/__pycache__
+/backup
+GenAI.code-workspace
+/ollama_experiment/src/food/__pycache__
